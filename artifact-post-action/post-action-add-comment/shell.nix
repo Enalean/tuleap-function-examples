@@ -1,4 +1,4 @@
-{ pkgs ? (import ./tools/pinned-nixpkgs.nix) {} }:
+{ pkgs ? (import ../tools/pinned-nixpkgs.nix) {} }:
 
 pkgs.mkShell {
   buildInputs = [
