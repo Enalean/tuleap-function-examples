@@ -1,13 +1,13 @@
 # Post-action add comment
 
-This module is an example of what you can do with this plugin. For this example we choose to use Rust, but you can use
+This Function is an example of what you can do with this plugin. For this example we choose to use Rust, but you can use
 any language which have a target to WASI Preview 1 (Go 1.21 for example).
 
 ## How to use
 
 First you need to run `nix-shell` to have all needed tools.
 
-Then you can test the module with:
+Then you can test the Function with:
 
 ```shell
 cat file.json | cargo run
@@ -15,7 +15,7 @@ cat file.json | cargo run
 echo '{"my": "json"}' | cargo run
 ```
 
-The module takes a json as input representing an artifact changeset. The structure is the same as
+The Function takes a json as input representing an artifact changeset. The structure is the same as
 for [Tracker webhooks](https://docs.tuleap.org/user-guide/integration/webhook.html#tracker). For example:
 
 ```json
@@ -348,4 +348,4 @@ cargo build --target wasm32-wasi --release
 ```
 
 Then upload the binary result file (`target/wasm32-wasi/release/post-action-add-comment.wasm`) to your Tracker
-administration (Administration > Workflow > Custom code execution).
+administration (Administration > Workflow > Tuleap Functions).
