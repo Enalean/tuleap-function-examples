@@ -1,6 +1,6 @@
-# Tuleap Functions for Tracker example
+# Tracker App example
 
-This module is an example of what you can do with Tuleap Functions for Tracker. For this example we choose to use Rust, but you can use
+This module is an example of what you can do with Tracker App. For this example we choose to use Rust, but you can use
 any language which have a target to WASI Preview 1 (Go 1.21 for example).
 
 ## How to use
