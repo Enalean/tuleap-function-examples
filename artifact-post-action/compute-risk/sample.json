@@ -1,0 +1,2206 @@
+{
+    "id": 11441,
+    "action": "update",
+    "user": {
+        "id": 102,
+        "uri": "users/102",
+        "user_url": "/users/vaceletm",
+        "real_name": "Manuel VACELET",
+        "display_name": "Manuel VACELET (vaceletm)",
+        "username": "vaceletm",
+        "ldap_id": "102",
+        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+        "is_anonymous": false,
+        "has_avatar": true
+    },
+    "current": {
+        "id": 16318,
+        "submitted_by": 102,
+        "submitted_by_details": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/vaceletm",
+            "real_name": "Manuel VACELET",
+            "display_name": "Manuel VACELET (vaceletm)",
+            "username": "vaceletm",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "submitted_on": "2024-01-31T14:24:52+00:00",
+        "email": null,
+        "last_comment": {
+            "body": "",
+            "post_processed_body": "",
+            "format": "html",
+            "commonmark": "",
+            "ugroups": null
+        },
+        "last_modified_by": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/vaceletm",
+            "real_name": "Manuel VACELET",
+            "display_name": "Manuel VACELET (vaceletm)",
+            "username": "vaceletm",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "values": [
+            {
+                "field_id": 25307,
+                "label": "Risk",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15054,
+                        "label": "16",
+                        "color": null,
+                        "tlp_color": "fiesta-red"
+                    }
+                ],
+                "bind_value_ids": [
+                    15054
+                ]
+            },
+            {
+                "field_id": 3436,
+                "label": "Assigned to",
+                "type": "msb",
+                "values": [
+                    {
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": "Utilisateur anonyme",
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/themes/common/images/avatar_default.png",
+                        "is_anonymous": true,
+                        "has_avatar": true,
+                        "email": null,
+                        "status": null
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 3438,
+                "label": "Status",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 1260,
+                        "label": "To be done",
+                        "color": null,
+                        "tlp_color": "firemist-silver"
+                    }
+                ],
+                "bind_value_ids": [
+                    1260
+                ]
+            },
+            {
+                "field_id": 25305,
+                "label": "Probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15037,
+                        "label": "3",
+                        "color": null,
+                        "tlp_color": "clockwork-orange"
+                    }
+                ],
+                "bind_value_ids": [
+                    15037
+                ]
+            },
+            {
+                "field_id": 3441,
+                "label": "Attachments",
+                "type": "file",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 3443,
+                "type": "cross",
+                "label": "Cross References",
+                "value": []
+            },
+            {
+                "field_id": 3445,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 11441
+            },
+            {
+                "field_id": 25304,
+                "label": "Severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15034,
+                        "label": "4",
+                        "color": null,
+                        "tlp_color": "fiesta-red"
+                    }
+                ],
+                "bind_value_ids": [
+                    15034
+                ]
+            },
+            {
+                "field_id": 3448,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2024-01-31T14:24:52+00:00"
+            },
+            {
+                "field_id": 3432,
+                "type": "string",
+                "label": "Title",
+                "value": "Find a place with water"
+            },
+            {
+                "field_id": 3449,
+                "type": "subon",
+                "label": "Submitted On",
+                "value": "2023-05-25T09:44:22+00:00"
+            },
+            {
+                "field_id": 3446,
+                "type": "subby",
+                "label": "Submitted By",
+                "value": {
+                    "id": 102,
+                    "uri": "users/102",
+                    "user_url": "/users/vaceletm",
+                    "real_name": "Manuel VACELET",
+                    "display_name": "Manuel VACELET (vaceletm)",
+                    "username": "vaceletm",
+                    "ldap_id": "102",
+                    "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+                    "is_anonymous": false,
+                    "has_avatar": true,
+                    "email": "foo@example.com",
+                    "status": "A"
+                }
+            },
+            {
+                "field_id": 22985,
+                "type": "date",
+                "label": "Start date",
+                "value": "2023-05-28T22:00:00+00:00"
+            },
+            {
+                "field_id": 3433,
+                "type": "text",
+                "label": "Description",
+                "value": "",
+                "format": "html",
+                "commonmark": ""
+            },
+            {
+                "field_id": 16920,
+                "label": "Labels",
+                "bind_value_objects": [],
+                "bind_value_ids": [],
+                "bind_type": "static",
+                "type": "tbl"
+            },
+            {
+                "field_id": 22986,
+                "type": "date",
+                "label": "Due date",
+                "value": "2023-06-01T22:00:00+00:00"
+            },
+            {
+                "field_id": 3439,
+                "label": "Importance",
+                "type": "sb",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 22988,
+                "type": "int",
+                "label": "Remaining effort",
+                "value": 100
+            },
+            {
+                "field_id": 22989,
+                "label": "Team in charge",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 14097,
+                        "label": "Turtle",
+                        "color": null,
+                        "tlp_color": "army-green"
+                    }
+                ],
+                "bind_value_ids": [
+                    14097
+                ]
+            },
+            {
+                "field_id": 22987,
+                "type": "int",
+                "label": "Total effort",
+                "value": 100
+            }
+        ],
+        "last_modified_date": "2024-01-31T14:24:52+00:00"
+    },
+    "previous": {
+        "id": 16309,
+        "submitted_by": 70,
+        "submitted_by_details": {
+            "id": 70,
+            "uri": "users/70",
+            "user_url": "/users/forge__function",
+            "real_name": "Tuleap Functions",
+            "display_name": "Tuleap Functions (forge__function)",
+            "username": "forge__function",
+            "ldap_id": null,
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/forge__function/avatar-071e080cb14f600c7d14152fbea47686996266c42f78ceff65e4808590dc7531.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "submitted_on": "2024-01-23T13:13:46+00:00",
+        "email": null,
+        "last_comment": {
+            "body": "",
+            "post_processed_body": "",
+            "format": "html",
+            "commonmark": "",
+            "ugroups": null
+        },
+        "last_modified_by": {
+            "id": 70,
+            "uri": "users/70",
+            "user_url": "/users/forge__function",
+            "real_name": "Tuleap Functions",
+            "display_name": "Tuleap Functions (forge__function)",
+            "username": "forge__function",
+            "ldap_id": null,
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/forge__function/avatar-071e080cb14f600c7d14152fbea47686996266c42f78ceff65e4808590dc7531.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "values": [
+            {
+                "field_id": 25307,
+                "label": "Risk",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15054,
+                        "label": "16",
+                        "color": null,
+                        "tlp_color": "fiesta-red"
+                    }
+                ],
+                "bind_value_ids": [
+                    15054
+                ]
+            },
+            {
+                "field_id": 3436,
+                "label": "Assigned to",
+                "type": "msb",
+                "values": [
+                    {
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": "Utilisateur anonyme",
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/themes/common/images/avatar_default.png",
+                        "is_anonymous": true,
+                        "has_avatar": true,
+                        "email": null,
+                        "status": null
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 3438,
+                "label": "Status",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 1260,
+                        "label": "To be done",
+                        "color": null,
+                        "tlp_color": "firemist-silver"
+                    }
+                ],
+                "bind_value_ids": [
+                    1260
+                ]
+            },
+            {
+                "field_id": 25305,
+                "label": "Probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15038,
+                        "label": "4",
+                        "color": null,
+                        "tlp_color": "fiesta-red"
+                    }
+                ],
+                "bind_value_ids": [
+                    15038
+                ]
+            },
+            {
+                "field_id": 3441,
+                "label": "Attachments",
+                "type": "file",
+                "file_descriptions": []
+            },
+            {
+                "field_id": 3443,
+                "type": "cross",
+                "label": "Cross References",
+                "value": []
+            },
+            {
+                "field_id": 3445,
+                "type": "aid",
+                "label": "Artifact ID",
+                "value": 11441
+            },
+            {
+                "field_id": 25304,
+                "label": "Severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15034,
+                        "label": "4",
+                        "color": null,
+                        "tlp_color": "fiesta-red"
+                    }
+                ],
+                "bind_value_ids": [
+                    15034
+                ]
+            },
+            {
+                "field_id": 3448,
+                "type": "lud",
+                "label": "Last Modified On",
+                "value": "2024-01-31T14:24:52+00:00"
+            },
+            {
+                "field_id": 3432,
+                "type": "string",
+                "label": "Title",
+                "value": "Find a place with water"
+            },
+            {
+                "field_id": 3449,
+                "type": "subon",
+                "label": "Submitted On",
+                "value": "2023-05-25T09:44:22+00:00"
+            },
+            {
+                "field_id": 3446,
+                "type": "subby",
+                "label": "Submitted By",
+                "value": {
+                    "id": 102,
+                    "uri": "users/102",
+                    "user_url": "/users/vaceletm",
+                    "real_name": "Manuel VACELET",
+                    "display_name": "Manuel VACELET (vaceletm)",
+                    "username": "vaceletm",
+                    "ldap_id": "102",
+                    "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+                    "is_anonymous": false,
+                    "has_avatar": true,
+                    "email": "foo@example.com",
+                    "status": "A"
+                }
+            },
+            {
+                "field_id": 22985,
+                "type": "date",
+                "label": "Start date",
+                "value": "2023-05-28T22:00:00+00:00"
+            },
+            {
+                "field_id": 3433,
+                "type": "text",
+                "label": "Description",
+                "value": "",
+                "format": "html",
+                "commonmark": ""
+            },
+            {
+                "field_id": 16920,
+                "label": "Labels",
+                "bind_value_objects": [],
+                "bind_value_ids": [],
+                "bind_type": "static",
+                "type": "tbl"
+            },
+            {
+                "field_id": 22986,
+                "type": "date",
+                "label": "Due date",
+                "value": "2023-06-01T22:00:00+00:00"
+            },
+            {
+                "field_id": 3439,
+                "label": "Importance",
+                "type": "sb",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 22988,
+                "type": "int",
+                "label": "Remaining effort",
+                "value": 100
+            },
+            {
+                "field_id": 22989,
+                "label": "Team in charge",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 14097,
+                        "label": "Turtle",
+                        "color": null,
+                        "tlp_color": "army-green"
+                    }
+                ],
+                "bind_value_ids": [
+                    14097
+                ]
+            },
+            {
+                "field_id": 22987,
+                "type": "int",
+                "label": "Total effort",
+                "value": 100
+            }
+        ],
+        "last_modified_date": "2024-01-23T13:13:46+00:00"
+    },
+    "is_custom_code_execution": false,
+    "tracker": {
+        "id": 149,
+        "uri": "trackers/149",
+        "html_url": "/plugins/tracker/?tracker=149",
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "Guinea Pig",
+            "icon": "🐇"
+        },
+        "label": "Actions",
+        "description": "",
+        "item_name": "action",
+        "fields": [
+            {
+                "field_id": 25305,
+                "label": "Probability",
+                "name": "probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15035,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15036,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15037,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15038,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 3448,
+                "label": "Last Modified On",
+                "name": "last_modified_on",
+                "type": "lud",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": "2024-01-31 14:24",
+                "is_time_displayed": true
+            },
+            {
+                "field_id": 3445,
+                "label": "Artifact ID",
+                "name": "artifact_id",
+                "type": "aid",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": null
+            },
+            {
+                "field_id": 3443,
+                "label": "Cross References",
+                "name": "cross_references",
+                "type": "cross",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": null
+            },
+            {
+                "field_id": 25304,
+                "label": "Severity",
+                "name": "severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15031,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15032,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15033,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15034,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 3441,
+                "label": "Attachments",
+                "name": "attachments_1",
+                "type": "file",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": null,
+                "file_creation_uri": "tracker_fields/3441/files",
+                "max_size_upload": 268435456
+            },
+            {
+                "field_id": 25307,
+                "label": "Risk",
+                "name": "risk",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15039,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15040,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15041,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15042,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15043,
+                        "label": "5",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15044,
+                        "label": "6",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15045,
+                        "label": "7",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15046,
+                        "label": "8",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15047,
+                        "label": "9",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15048,
+                        "label": "10",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15049,
+                        "label": "11",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15050,
+                        "label": "12",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15051,
+                        "label": "13",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15052,
+                        "label": "14",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15053,
+                        "label": "15",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15054,
+                        "label": "16",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 3438,
+                "label": "Status",
+                "name": "status",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 1260,
+                        "label": "To be done",
+                        "is_hidden": false,
+                        "value_color": "firemist-silver"
+                    },
+                    {
+                        "id": 1261,
+                        "label": "In progress",
+                        "is_hidden": false,
+                        "value_color": "acid-green"
+                    },
+                    {
+                        "id": 1262,
+                        "label": "Review",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 1263,
+                        "label": "Done",
+                        "is_hidden": false,
+                        "value_color": "army-green"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": [
+                    {
+                        "id": 1260,
+                        "label": "To be done"
+                    }
+                ]
+            },
+            {
+                "field_id": 3436,
+                "label": "Assigned to",
+                "name": "assigned_to",
+                "type": "msb",
+                "values": [
+                    {
+                        "id": 1139,
+                        "label": "fred",
+                        "user_reference": {
+                            "id": "1139",
+                            "uri": "users/1139",
+                            "real_name": "Fred (fred)",
+                            "username": "fred",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/fred/avatar-33b3a617915b611321a6e689822f5e1f3d5eebd691a90668d83c6ef0875e381e.png"
+                        }
+                    },
+                    {
+                        "id": 1142,
+                        "label": "jean",
+                        "user_reference": {
+                            "id": "1142",
+                            "uri": "users/1142",
+                            "real_name": "Jean (jean)",
+                            "username": "jean",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jean/avatar-2e7249e65d82ef01e25e702e18932f263cf3fab9747c5d9852e1ae0e89960bc6.png"
+                        }
+                    },
+                    {
+                        "id": 6965,
+                        "label": "jd249769",
+                        "user_reference": {
+                            "id": "6965",
+                            "uri": "users/6965",
+                            "real_name": "JeanDaniel (jd249769)",
+                            "username": "jd249769",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/jd249769/avatar-b1fab7bd2807c68ce4bf5484436c4a66ec12559aa19a9a1de15484e685e9a289.png"
+                        }
+                    },
+                    {
+                        "id": 136,
+                        "label": "ldap_user_1000",
+                        "user_reference": {
+                            "id": "136",
+                            "uri": "users/136",
+                            "real_name": "LDAP user 1000 (ldap_user_1000)",
+                            "username": "ldap_user_1000",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/ldap_user_1000/avatar-9eb3b746b08c5b8d59de300a28aeb36c27e7b590d2bb69fa61e42f0ec48e32f9.png"
+                        }
+                    },
+                    {
+                        "id": 143,
+                        "label": "ldap_user_12_quad",
+                        "user_reference": {
+                            "id": "143",
+                            "uri": "users/143",
+                            "real_name": "LDAP user 12 (ldap_user_12_quad)",
+                            "username": "ldap_user_12_quad",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/ldap_user_12_quad/avatar-bda215377a5a3638a7be8f9fb2a45f397f2e5c7194397fda7e78e8bd022792a9.png"
+                        }
+                    },
+                    {
+                        "id": 144,
+                        "label": "ldap_user_13",
+                        "user_reference": {
+                            "id": "144",
+                            "uri": "users/144",
+                            "real_name": "LDAP user 13 (ldap_user_13)",
+                            "username": "ldap_user_13",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/ldap_user_13/avatar-a004b8e62081df47398f4f5fc187325e7d72f1462790dc232d86fc48e6cab9dd.png"
+                        }
+                    },
+                    {
+                        "id": 145,
+                        "label": "ldap_user_14",
+                        "user_reference": {
+                            "id": "145",
+                            "uri": "users/145",
+                            "real_name": "LDAP user 14 (ldap_user_14)",
+                            "username": "ldap_user_14",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/ldap_user_14/avatar-903835806eeaae60f034b1ad85aa65e94d7ba68931371436b39bdedf6ae9f83a.png"
+                        }
+                    },
+                    {
+                        "id": 146,
+                        "label": "ldap_user_15",
+                        "user_reference": {
+                            "id": "146",
+                            "uri": "users/146",
+                            "real_name": "LDAP user 15 (ldap_user_15)",
+                            "username": "ldap_user_15",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/ldap_user_15/avatar-7edbc91c5966d8eb9a9be8a0471351d6bcf8688df9899f380d22706b03a6b250.png"
+                        }
+                    },
+                    {
+                        "id": 134,
+                        "label": "LDAP_user_5",
+                        "user_reference": {
+                            "id": "134",
+                            "uri": "users/134",
+                            "real_name": "LDAP user 5 (LDAP_user_5)",
+                            "username": "LDAP_user_5",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/LDAP_user_5/avatar-8a4437b7b4e1452c44bbe072c10abd5b325b636007b762710b4fc91d898a24df.png"
+                        }
+                    },
+                    {
+                        "id": 102,
+                        "label": "vaceletm",
+                        "user_reference": {
+                            "id": "102",
+                            "uri": "users/102",
+                            "real_name": "Manuel VACELET (vaceletm)",
+                            "username": "vaceletm",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png"
+                        }
+                    },
+                    {
+                        "id": 107,
+                        "label": "heracles1",
+                        "user_reference": {
+                            "id": "107",
+                            "uri": "users/107",
+                            "real_name": "Ἡρακλῆς (heracles1)",
+                            "username": "heracles1",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/heracles1/avatar-260da043ce9b370d7077b2e873b8e4e1fde5f0f0011bdac982e227cf68b88e15.png"
+                        }
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "users",
+                    "list": [
+                        {
+                            "id": 3,
+                            "label": "membres_projet"
+                        }
+                    ]
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 3435,
+                "label": "c1",
+                "name": "c1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25309,
+                "label": "R:C1",
+                "name": "r_c1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3432,
+                "label": "Title",
+                "name": "title",
+                "type": "string",
+                "values": null,
+                "required": true,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": ""
+            },
+            {
+                "field_id": 3437,
+                "label": "c2",
+                "name": "c2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25310,
+                "label": "R:C2",
+                "name": "r_c2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3446,
+                "label": "Submitted By",
+                "name": "submitted_by",
+                "type": "subby",
+                "values": [
+                    {
+                        "id": 102,
+                        "label": "vaceletm",
+                        "user_reference": {
+                            "id": "102",
+                            "uri": "users/102",
+                            "real_name": "Manuel VACELET (vaceletm)",
+                            "username": "vaceletm",
+                            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png"
+                        }
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "users",
+                    "list": [
+                        {
+                            "id": 0,
+                            "label": "artifact_submitters"
+                        }
+                    ]
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 3449,
+                "label": "Submitted On",
+                "name": "submitted_on",
+                "type": "subon",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": "2024-01-31 14:24",
+                "is_time_displayed": true
+            },
+            {
+                "field_id": 25311,
+                "label": "R:C3",
+                "name": "r_c3",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 22985,
+                "label": "Start date",
+                "name": "start_date",
+                "type": "date",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": "",
+                "is_time_displayed": false
+            },
+            {
+                "field_id": 3433,
+                "label": "Description",
+                "name": "description",
+                "type": "text",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": {
+                    "format": "commonmark",
+                    "content": ""
+                }
+            },
+            {
+                "field_id": 16920,
+                "label": "Labels",
+                "name": "labels",
+                "type": "tbl",
+                "values": [
+                    {
+                        "id": 1,
+                        "label": "foo",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 2,
+                        "label": "bernic",
+                        "is_hidden": false,
+                        "value_color": ""
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": [],
+                "hint": "Type in a search term"
+            },
+            {
+                "field_id": 22986,
+                "label": "Due date",
+                "name": "due_date",
+                "type": "date",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": "",
+                "is_time_displayed": false
+            },
+            {
+                "field_id": 3439,
+                "label": "Importance",
+                "name": "importance",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 1264,
+                        "label": "High",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 22988,
+                "label": "Remaining effort",
+                "name": "remaining_effort",
+                "type": "int",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": "100"
+            },
+            {
+                "field_id": 22989,
+                "label": "Team in charge",
+                "name": "team_in_charge",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 14096,
+                        "label": "Rabbit",
+                        "is_hidden": false,
+                        "value_color": "teddy-brown"
+                    },
+                    {
+                        "id": 14097,
+                        "label": "Turtle",
+                        "is_hidden": false,
+                        "value_color": "army-green"
+                    }
+                ],
+                "required": true,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 22987,
+                "label": "Total effort",
+                "name": "total_effort",
+                "type": "int",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": "100"
+            },
+            {
+                "field_id": 3431,
+                "label": "Details",
+                "name": "details_1",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25308,
+                "label": "Risk",
+                "name": "risk_1",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3434,
+                "label": "Progress",
+                "name": "progress",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3440,
+                "label": "Attachments",
+                "name": "attachments",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3442,
+                "label": "References",
+                "name": "references",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3444,
+                "label": "Column Top 1",
+                "name": "column_top_1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 3447,
+                "label": "Column Top 2",
+                "name": "column_top_2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            }
+        ],
+        "structure": [
+            {
+                "id": 3431,
+                "content": [
+                    {
+                        "id": 3432,
+                        "content": null
+                    },
+                    {
+                        "id": 3433,
+                        "content": null
+                    },
+                    {
+                        "id": 16920,
+                        "content": null
+                    },
+                    {
+                        "id": 22989,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 25308,
+                "content": [
+                    {
+                        "id": 25309,
+                        "content": [
+                            {
+                                "id": 25305,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25310,
+                        "content": [
+                            {
+                                "id": 25304,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25311,
+                        "content": [
+                            {
+                                "id": 25307,
+                                "content": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 3434,
+                "content": [
+                    {
+                        "id": 3435,
+                        "content": [
+                            {
+                                "id": 3436,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 3437,
+                        "content": [
+                            {
+                                "id": 3438,
+                                "content": null
+                            },
+                            {
+                                "id": 3439,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 22985,
+                        "content": null
+                    },
+                    {
+                        "id": 22986,
+                        "content": null
+                    },
+                    {
+                        "id": 22988,
+                        "content": null
+                    },
+                    {
+                        "id": 22987,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 3440,
+                "content": [
+                    {
+                        "id": 3441,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 3442,
+                "content": [
+                    {
+                        "id": 3443,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 3444,
+                "content": [
+                    {
+                        "id": 3445,
+                        "content": null
+                    },
+                    {
+                        "id": 3446,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 3447,
+                "content": [
+                    {
+                        "id": 3448,
+                        "content": null
+                    },
+                    {
+                        "id": 3449,
+                        "content": null
+                    }
+                ]
+            }
+        ],
+        "semantics": {
+            "title": {
+                "field_id": 3432
+            },
+            "status": {
+                "field_id": 3438,
+                "value_ids": [
+                    1260,
+                    1261,
+                    1262
+                ]
+            },
+            "contributor": {
+                "field_id": 3436
+            },
+            "timeframe": {
+                "start_date_field_id": 22985,
+                "end_date_field_id": 22986
+            },
+            "progress": {
+                "total_effort_field_id": 22987,
+                "remaining_effort_field_id": 22988
+            }
+        },
+        "workflow": {
+            "field_id": 0,
+            "is_used": "",
+            "is_legacy": false,
+            "is_advanced": true,
+            "rules": {
+                "dates": [],
+                "lists": []
+            },
+            "transitions": []
+        },
+        "permissions_for_groups": {
+            "can_access": [
+                {
+                    "id": "1",
+                    "uri": "user_groups/1",
+                    "label": "Anonymes",
+                    "users_uri": "user_groups/1/users",
+                    "short_name": "all_users",
+                    "key": "ugroup_anonymous_users_name_key"
+                }
+            ],
+            "can_access_submitted_by_user": [],
+            "can_access_assigned_to_group": [],
+            "can_access_submitted_by_group": [],
+            "can_admin": []
+        },
+        "parent": null,
+        "resources": [
+            {
+                "type": "reports",
+                "uri": "trackers/149/tracker_reports"
+            }
+        ],
+        "color_name": "clockwork-orange"
+    }
+}
