@@ -1,0 +1,24 @@
+{
+  "name": "@tuleap/functions-post-action-auto-assign",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "build": "pnpm run build:bundle && pnpm run build:js2wasm && pnpm run build:wasmopt",
+    "build:bundle": "esbuild src/main.ts --platform=node --bundle --target=es2022 --minify --outfile=dist/function.js",
+    "build:js2wasm": "javy compile ./dist/function.js -o ./dist/function-unoptimized.wasm",
+    "build:wasmopt": "wasm-opt -O2 ./dist/function-unoptimized.wasm -o ./dist/function.wasm",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "author": "Enalean Team",
+  "license": "MIT",
+  "devDependencies": {
+    "esbuild": "^0.20.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.2"
+  },
+  "dependencies": {
+    "javy": "^0.1.2"
+  }
+}
