@@ -1,0 +1,30 @@
+name: Tests
+
+permissions: read-all
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+
+jobs:
+  tests:
+    strategy:
+      matrix:
+        tuleap_functions:
+          - "artifact-post-action/auto-assign"
+    runs-on: ubuntu-22.04
+    name: Tests (${{ matrix.tuleap_functions }})
+    defaults:
+      run:
+        working-directory: ${{ matrix.tuleap_functions }}
+    steps:
+      - uses: actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11 # v4.1.1
+      - uses: cachix/install-nix-action@6004951b182f8860210c8d6f0d808ec5b1a33d28 # v25
+      - name: Prepare
+        run: nix-shell --run "make prepare"
+      - name: Tests
+        run: nix-shell --pure --run "make tests"
+      - name: Build
+        run: nix-shell --pure --run "make build"

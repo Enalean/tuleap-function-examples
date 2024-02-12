@@ -1,0 +1,277 @@
+{
+    "id": 12808,
+    "action": "create",
+    "user": {
+        "id": 102,
+        "uri": "users/102",
+        "user_url": "/users/user1",
+        "real_name": " User1",
+        "display_name": " User1 (user1)",
+        "username": "user1",
+        "ldap_id": "102",
+        "avatar_url": "https://tuleap.example.com/users/user1/avatar-4033d2be3832fdd582ad3058c9be5f50be835b7fd024d6c11cbb3497a0a7f478.png",
+        "is_anonymous": false,
+        "has_avatar": true
+    },
+    "current": {
+        "id": 20373,
+        "submitted_by": 102,
+        "submitted_by_details": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/user1",
+            "real_name": " User1",
+            "display_name": " User1 (user1)",
+            "username": "user1",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap.example.com/users/user1/avatar-4033d2be3832fdd582ad3058c9be5f50be835b7fd024d6c11cbb3497a0a7f478.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "submitted_on": "2024-02-12T13:32:03+00:00",
+        "email": null,
+        "last_comment": {
+            "body": "",
+            "post_processed_body": "",
+            "format": "text",
+            "ugroups": null
+        },
+        "last_modified_by": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/user1",
+            "real_name": " User1",
+            "display_name": " User1 (user1)",
+            "username": "user1",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap.example.com/users/user1/avatar-4033d2be3832fdd582ad3058c9be5f50be835b7fd024d6c11cbb3497a0a7f478.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "values": [
+            {
+                "field_id": 49548,
+                "label": "assigned_to",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": "Anonymous user",
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap.example.com/themes/common/images/avatar_default.png",
+                        "is_anonymous": true,
+                        "has_avatar": true,
+                        "email": null,
+                        "status": null
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            }
+        ],
+        "last_modified_date": "2024-02-12T13:32:03+00:00"
+    },
+    "previous": null,
+    "is_custom_code_execution": false,
+    "tracker": {
+        "id": 1998,
+        "uri": "trackers/1998",
+        "html_url": "/plugins/tracker/?tracker=1998",
+        "project": {
+            "id": 102,
+            "uri": "projects/102",
+            "label": "project1",
+            "icon": ""
+        },
+        "label": "function_auto_assign",
+        "description": "",
+        "item_name": "function_auto_assign",
+        "fields": [
+            {
+                "field_id": 49548,
+                "label": "assigned_to",
+                "name": "assigned_to",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 102,
+                        "label": "user1",
+                        "user_reference": {
+                            "id": "102",
+                            "uri": "users/102",
+                            "real_name": " User1 (user1)",
+                            "username": "user1",
+                            "avatar_url": "https://tuleap.example.com/users/user1/avatar-4033d2be3832fdd582ad3058c9be5f50be835b7fd024d6c11cbb3497a0a7f478.png"
+                        }
+                    },
+                    {
+                        "id": 111,
+                        "label": "muchuser3",
+                        "user_reference": {
+                            "id": "111",
+                            "uri": "users/111",
+                            "real_name": "MuchUser3 (muchuser3)",
+                            "username": "muchuser3",
+                            "avatar_url": "https://tuleap.example.com/users/muchuser3/avatar-81f1c07b4c2c26ce6ad7675e9ac401378a9a04855476538f51cd9a4f53a9a244.png"
+                        }
+                    },
+                    {
+                        "id": 3109,
+                        "label": "test_abc",
+                        "user_reference": {
+                            "id": "3109",
+                            "uri": "users/3109",
+                            "real_name": "Test ABC (test_abc)",
+                            "username": "test_abc",
+                            "avatar_url": "https://tuleap.example.com/users/test_abc/avatar-270ac06917a1e02ccac221c96357b558f35a84fe20363744366163c947b63be5.png"
+                        }
+                    },
+                    {
+                        "id": 106,
+                        "label": "user25",
+                        "user_reference": {
+                            "id": "106",
+                            "uri": "users/106",
+                            "real_name": "User25 (user25)",
+                            "username": "user25",
+                            "avatar_url": "https://tuleap.example.com/users/user25/avatar-7391fe3764bf187ae5e4c1cdad094894f14f03979087b22bb43efdb952fe878d.png"
+                        }
+                    },
+                    {
+                        "id": 107,
+                        "label": "user26",
+                        "user_reference": {
+                            "id": "107",
+                            "uri": "users/107",
+                            "real_name": "User26 (user26)",
+                            "username": "user26",
+                            "avatar_url": "https://tuleap.example.com/users/user26/avatar-9298d6a0b2a4f402d1a351e3b1d45efbfc9a03f2ea09839226aa619897580fa1.png"
+                        }
+                    },
+                    {
+                        "id": 104,
+                        "label": "user3",
+                        "user_reference": {
+                            "id": "104",
+                            "uri": "users/104",
+                            "real_name": "User3 (user3)",
+                            "username": "user3",
+                            "avatar_url": "https://tuleap.example.com/users/user3/avatar-9f81f06e6b580519d3d1e375ef5581946eb47998a357a3c51ecae48e4289ec19.png"
+                        }
+                    },
+                    {
+                        "id": 103,
+                        "label": "user2",
+                        "user_reference": {
+                            "id": "103",
+                            "uri": "users/103",
+                            "real_name": "UserAAAAAAAAAAAAAAAAAAAAAA2 (user2)",
+                            "username": "user2",
+                            "avatar_url": "https://tuleap.example.com/users/user2/avatar-c98e6bc9722d926ef56982bc39d0313ecc6c0a25a9bdb781dbd79737906daea8.png"
+                        }
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "users",
+                    "list": [
+                        {
+                            "id": 3,
+                            "label": "project_members"
+                        }
+                    ]
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Registered users",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymous",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "102_3",
+                            "uri": "user_groups/102_3",
+                            "label": "Project members",
+                            "users_uri": "user_groups/102_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            }
+        ],
+        "structure": [
+            {
+                "id": 49548,
+                "content": null
+            }
+        ],
+        "semantics": {
+            "contributor": {
+                "field_id": 49548
+            }
+        },
+        "workflow": {
+            "field_id": 0,
+            "is_used": "",
+            "is_legacy": false,
+            "is_advanced": true,
+            "rules": {
+                "dates": [],
+                "lists": []
+            },
+            "transitions": []
+        },
+        "permissions_for_groups": {
+            "can_access": [
+                {
+                    "id": "1",
+                    "uri": "user_groups/1",
+                    "label": "Anonymous",
+                    "users_uri": "user_groups/1/users",
+                    "short_name": "all_users",
+                    "key": "ugroup_anonymous_users_name_key"
+                }
+            ],
+            "can_access_submitted_by_user": [],
+            "can_access_assigned_to_group": [],
+            "can_access_submitted_by_group": [],
+            "can_admin": []
+        },
+        "parent": null,
+        "resources": [
+            {
+                "type": "reports",
+                "uri": "trackers/1998/tracker_reports"
+            }
+        ],
+        "color_name": "inca-silver"
+    }
+}
