@@ -14,6 +14,8 @@ jobs:
       matrix:
         tuleap_functions:
           - "artifact-post-action/auto-assign"
+          - "artifact-post-action/compute-risk"
+          - "artifact-post-action/post-action-add-comment"
     runs-on: ubuntu-22.04
     name: Tests (${{ matrix.tuleap_functions }})
     defaults:
