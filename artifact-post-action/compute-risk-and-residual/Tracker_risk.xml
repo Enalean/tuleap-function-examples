@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tracker id="T980" parent_id="0" is_displayed_in_new_dropdown="1" enable_move_artifacts="1">
+  <name><![CDATA[Risk]]></name>
+  <item_name><![CDATA[risk]]></item_name>
+  <description><![CDATA[]]></description>
+  <color><![CDATA[coral-pink]]></color>
+  <cannedResponses/>
+  <formElements>
+    <formElement type="fieldset" ID="F25370" rank="0" id="25370" tracker_id="980" parent_id="0">
+      <name><![CDATA[info]]></name>
+      <label><![CDATA[Info]]></label>
+      <formElements>
+        <formElement type="column" ID="F25371" rank="1" id="25371" tracker_id="980" parent_id="25370">
+          <name><![CDATA[i_c1]]></name>
+          <label><![CDATA[I:C1]]></label>
+          <formElements>
+            <formElement type="string" ID="F25372" rank="0" id="25372" tracker_id="980" parent_id="25371">
+              <name><![CDATA[title]]></name>
+              <label><![CDATA[Title]]></label>
+              <properties size="60"/>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="column" ID="F25373" rank="2" id="25373" tracker_id="980" parent_id="25370">
+          <name><![CDATA[i_c2]]></name>
+          <label><![CDATA[I:C2]]></label>
+          <formElements>
+            <formElement type="string" ID="F25374" rank="0" id="25374" tracker_id="980" parent_id="25373">
+              <name><![CDATA[code]]></name>
+              <label><![CDATA[Code]]></label>
+              <properties size="5" default_value="SXX"/>
+            </formElement>
+          </formElements>
+        </formElement>
+      </formElements>
+    </formElement>
+    <formElement type="fieldset" ID="F25375" rank="1" id="25375" tracker_id="980" parent_id="0">
+      <name><![CDATA[risk_assessment]]></name>
+      <label><![CDATA[Risk assessment]]></label>
+      <formElements>
+        <formElement type="column" ID="F25376" rank="0" id="25376" tracker_id="980" parent_id="25375">
+          <name><![CDATA[r_c1]]></name>
+          <label><![CDATA[R:C1]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25377" rank="0" id="25377" tracker_id="980" parent_id="25376">
+              <name><![CDATA[severity]]></name>
+              <label><![CDATA[Severity]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15117" label="1" is_hidden="0"/>
+                  <item ID="V15118" label="2" is_hidden="0"/>
+                  <item ID="V15119" label="3" is_hidden="0"/>
+                  <item ID="V15120" label="4" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15117" tlp_color_name="neon-green"/>
+                  <decorator REF="V15118" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15119" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15120" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="column" ID="F25378" rank="1" id="25378" tracker_id="980" parent_id="25375">
+          <name><![CDATA[r_c2]]></name>
+          <label><![CDATA[R:C2]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25379" rank="0" id="25379" tracker_id="980" parent_id="25378">
+              <name><![CDATA[probability]]></name>
+              <label><![CDATA[Probability]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15121" label="1" is_hidden="0"/>
+                  <item ID="V15122" label="2" is_hidden="0"/>
+                  <item ID="V15123" label="3" is_hidden="0"/>
+                  <item ID="V15124" label="4" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15121" tlp_color_name="neon-green"/>
+                  <decorator REF="V15122" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15123" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15124" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="column" ID="F25380" rank="2" id="25380" tracker_id="980" parent_id="25375">
+          <name><![CDATA[r_c3]]></name>
+          <label><![CDATA[R:C3]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25381" rank="0" id="25381" tracker_id="980" parent_id="25380">
+              <name><![CDATA[risk]]></name>
+              <label><![CDATA[Risk]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15125" label="1" is_hidden="0"/>
+                  <item ID="V15126" label="2" is_hidden="0"/>
+                  <item ID="V15127" label="3" is_hidden="0"/>
+                  <item ID="V15128" label="4" is_hidden="0"/>
+                  <item ID="V15129" label="5" is_hidden="0"/>
+                  <item ID="V15130" label="6" is_hidden="0"/>
+                  <item ID="V15131" label="7" is_hidden="0"/>
+                  <item ID="V15132" label="8" is_hidden="0"/>
+                  <item ID="V15133" label="9" is_hidden="0"/>
+                  <item ID="V15134" label="10" is_hidden="0"/>
+                  <item ID="V15135" label="11" is_hidden="0"/>
+                  <item ID="V15136" label="12" is_hidden="0"/>
+                  <item ID="V15137" label="13" is_hidden="0"/>
+                  <item ID="V15138" label="14" is_hidden="0"/>
+                  <item ID="V15139" label="15" is_hidden="0"/>
+                  <item ID="V15140" label="16" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15125" tlp_color_name="neon-green"/>
+                  <decorator REF="V15126" tlp_color_name="neon-green"/>
+                  <decorator REF="V15127" tlp_color_name="neon-green"/>
+                  <decorator REF="V15128" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15129" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15130" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15132" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15133" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15136" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15137" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15138" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15139" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15140" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="text" ID="F25382" rank="3" id="25382" tracker_id="980" parent_id="25375">
+          <name><![CDATA[existing_controls]]></name>
+          <label><![CDATA[Existing controls]]></label>
+          <properties rows="10" cols="50"/>
+        </formElement>
+      </formElements>
+    </formElement>
+    <formElement type="fieldset" ID="F25383" rank="3" id="25383" tracker_id="980" parent_id="0">
+      <name><![CDATA[residual_risk_assessment]]></name>
+      <label><![CDATA[Residual risk assessment]]></label>
+      <formElements>
+        <formElement type="column" ID="F25384" rank="0" id="25384" tracker_id="980" parent_id="25383">
+          <name><![CDATA[rra_c1]]></name>
+          <label><![CDATA[RRA:C1]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25385" rank="0" id="25385" tracker_id="980" parent_id="25384">
+              <name><![CDATA[residual_severity]]></name>
+              <label><![CDATA[Residual severity]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15141" label="1" is_hidden="0"/>
+                  <item ID="V15142" label="2" is_hidden="0"/>
+                  <item ID="V15143" label="3" is_hidden="0"/>
+                  <item ID="V15144" label="4" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15141" tlp_color_name="neon-green"/>
+                  <decorator REF="V15142" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15143" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15144" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="column" ID="F25386" rank="1" id="25386" tracker_id="980" parent_id="25383">
+          <name><![CDATA[rra_c2]]></name>
+          <label><![CDATA[RRA:C2]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25387" rank="0" id="25387" tracker_id="980" parent_id="25386">
+              <name><![CDATA[residual_probability]]></name>
+              <label><![CDATA[Residual probability]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15145" label="1" is_hidden="0"/>
+                  <item ID="V15146" label="2" is_hidden="0"/>
+                  <item ID="V15147" label="3" is_hidden="0"/>
+                  <item ID="V15148" label="4" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15145" tlp_color_name="neon-green"/>
+                  <decorator REF="V15146" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15147" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15148" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+        <formElement type="column" ID="F25388" rank="2" id="25388" tracker_id="980" parent_id="25383">
+          <name><![CDATA[rra_c3]]></name>
+          <label><![CDATA[RRA:C3]]></label>
+          <formElements>
+            <formElement type="sb" ID="F25389" rank="0" id="25389" tracker_id="980" parent_id="25388">
+              <name><![CDATA[residual_risk_level]]></name>
+              <label><![CDATA[Residual risk level]]></label>
+              <bind type="static" is_rank_alpha="0">
+                <items>
+                  <item ID="V15149" label="1" is_hidden="0"/>
+                  <item ID="V15150" label="2" is_hidden="0"/>
+                  <item ID="V15151" label="3" is_hidden="0"/>
+                  <item ID="V15152" label="4" is_hidden="0"/>
+                  <item ID="V15153" label="5" is_hidden="0"/>
+                  <item ID="V15154" label="6" is_hidden="0"/>
+                  <item ID="V15155" label="7" is_hidden="0"/>
+                  <item ID="V15156" label="8" is_hidden="0"/>
+                  <item ID="V15157" label="9" is_hidden="0"/>
+                  <item ID="V15158" label="10" is_hidden="0"/>
+                  <item ID="V15159" label="11" is_hidden="0"/>
+                  <item ID="V15160" label="12" is_hidden="0"/>
+                  <item ID="V15161" label="13" is_hidden="0"/>
+                  <item ID="V15162" label="14" is_hidden="0"/>
+                  <item ID="V15163" label="15" is_hidden="0"/>
+                  <item ID="V15164" label="16" is_hidden="0"/>
+                </items>
+                <decorators>
+                  <decorator REF="V15149" tlp_color_name="neon-green"/>
+                  <decorator REF="V15150" tlp_color_name="neon-green"/>
+                  <decorator REF="V15151" tlp_color_name="neon-green"/>
+                  <decorator REF="V15152" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15153" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15154" tlp_color_name="graffiti-yellow"/>
+                  <decorator REF="V15156" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15157" tlp_color_name="clockwork-orange"/>
+                  <decorator REF="V15160" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15161" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15162" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15163" tlp_color_name="fiesta-red"/>
+                  <decorator REF="V15164" tlp_color_name="fiesta-red"/>
+                </decorators>
+              </bind>
+            </formElement>
+          </formElements>
+        </formElement>
+      </formElements>
+    </formElement>
+    <formElement type="fieldset" ID="F25390" rank="4" id="25390" tracker_id="980" parent_id="0">
+      <name><![CDATA[status_1]]></name>
+      <label><![CDATA[Status]]></label>
+      <formElements>
+        <formElement type="sb" ID="F25391" rank="0" id="25391" tracker_id="980" parent_id="25390">
+          <name><![CDATA[status]]></name>
+          <label><![CDATA[Status]]></label>
+          <bind type="static" is_rank_alpha="0">
+            <items>
+              <item ID="V15165" label="Active" is_hidden="0"/>
+              <item ID="V15166" label="Canceled" is_hidden="0"/>
+            </items>
+            <default_values>
+              <value REF="V15165"/>
+            </default_values>
+          </bind>
+        </formElement>
+        <formElement type="sb" ID="F25392" rank="1" id="25392" tracker_id="980" parent_id="25390">
+          <name><![CDATA[owner]]></name>
+          <label><![CDATA[Owner]]></label>
+          <bind type="users">
+            <items>
+              <item label="ugroup_553"/>
+            </items>
+          </bind>
+        </formElement>
+        <formElement type="rb" ID="F25393" rank="2" id="25393" tracker_id="980" parent_id="25390">
+          <name><![CDATA[risk_acceptance]]></name>
+          <label><![CDATA[Risk acceptance]]></label>
+          <bind type="static" is_rank_alpha="0">
+            <items>
+              <item ID="V15167" label="Yes" is_hidden="0"/>
+              <item ID="V15168" label="No" is_hidden="0"/>
+            </items>
+          </bind>
+        </formElement>
+      </formElements>
+    </formElement>
+    <formElement type="fieldset" ID="F25394" rank="7" id="25394" tracker_id="980" parent_id="0">
+      <name><![CDATA[links]]></name>
+      <label><![CDATA[Links]]></label>
+      <formElements>
+        <formElement type="art_link" ID="F25395" rank="0" id="25395" tracker_id="980" parent_id="25394">
+          <name><![CDATA[links_1]]></name>
+          <label><![CDATA[Links]]></label>
+        </formElement>
+      </formElements>
+    </formElement>
+    <formElement type="fieldset" ID="F25396" rank="8" id="25396" tracker_id="980" parent_id="0">
+      <name><![CDATA[metadata]]></name>
+      <label><![CDATA[Metadata]]></label>
+      <formElements>
+        <formElement type="aid" ID="F25397" rank="0" id="25397" tracker_id="980" parent_id="25396">
+          <name><![CDATA[id]]></name>
+          <label><![CDATA[id]]></label>
+        </formElement>
+      </formElements>
+    </formElement>
+  </formElements>
+  <semantics>
+    <semantic type="title">
+      <shortname><![CDATA[title]]></shortname>
+      <label><![CDATA[Title]]></label>
+      <description><![CDATA[Define the title of an artifact]]></description>
+      <field REF="F25372"/>
+    </semantic>
+    <semantic type="status">
+      <shortname><![CDATA[status]]></shortname>
+      <label><![CDATA[Status]]></label>
+      <description><![CDATA[Define the status of an artifact]]></description>
+      <field REF="F25391"/>
+      <open_values>
+        <open_value REF="V15165"/>
+      </open_values>
+    </semantic>
+    <semantic type="done">
+      <shortname><![CDATA[done]]></shortname>
+      <label><![CDATA[Done]]></label>
+      <description><![CDATA[Define the closed status that are considered Done]]></description>
+      <closed_values/>
+    </semantic>
+    <semantic type="tooltip">
+      <field REF="F25374"/>
+    </semantic>
+    <semantic type="plugin_cardwall_card_fields"/>
+  </semantics>
+  <rules>
+    <date_rules/>
+    <list_rules/>
+  </rules>
+  <reports>
+    <report id="REPORT_3009" is_default="0">
+      <name><![CDATA[Default]]></name>
+      <description><![CDATA[The system default artifact report]]></description>
+      <criterias>
+        <criteria rank="0">
+          <field REF="F25391"/>
+          <criteria_value type="list">
+            <selected_value REF="V15165"/>
+          </criteria_value>
+        </criteria>
+      </criterias>
+      <renderers>
+        <renderer ID="R4350" type="table" rank="0" chunksz="15">
+          <name><![CDATA[Results]]></name>
+          <columns>
+            <field REF="F25372"/>
+            <field REF="F25389"/>
+            <field REF="F25395" artlink-nature="mitigated_by" artlink-nature-format="%title"/>
+          </columns>
+          <sort>
+            <field REF="F25389"/>
+          </sort>
+        </renderer>
+      </renderers>
+    </report>
+    <report id="REPORT_3010" is_default="0">
+      <name><![CDATA[Risk level]]></name>
+      <description><![CDATA[The system default artifact report]]></description>
+      <criterias>
+        <criteria rank="0">
+          <field REF="F25391"/>
+          <criteria_value type="list">
+            <selected_value REF="V15165"/>
+          </criteria_value>
+        </criteria>
+      </criterias>
+      <renderers>
+        <renderer ID="R4351" type="table" rank="0" chunksz="15">
+          <name><![CDATA[Results]]></name>
+          <columns>
+            <field REF="F25372"/>
+            <field REF="F25374"/>
+            <field REF="F25379"/>
+            <field REF="F25377"/>
+            <field REF="F25381"/>
+            <field REF="F25387"/>
+            <field REF="F25385"/>
+            <field REF="F25389"/>
+          </columns>
+          <sort>
+            <field REF="F25374"/>
+          </sort>
+        </renderer>
+      </renderers>
+    </report>
+  </reports>
+  <permissions>
+    <permission scope="tracker" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_ACCESS_FULL"/>
+    <permission scope="field" REF="F25372" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25372" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25372" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25374" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25374" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25374" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25377" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25377" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25377" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25379" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25379" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25379" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25381" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25382" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25382" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25382" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25385" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25385" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25385" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25387" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25387" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25387" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25389" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25389" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25389" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25391" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25391" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25391" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25392" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25392" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25392" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25393" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25393" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25393" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25395" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+    <permission scope="field" REF="F25395" ugroup="UGROUP_REGISTERED" type="PLUGIN_TRACKER_FIELD_SUBMIT"/>
+    <permission scope="field" REF="F25395" ugroup="UGROUP_PROJECT_MEMBERS" type="PLUGIN_TRACKER_FIELD_UPDATE"/>
+    <permission scope="field" REF="F25397" ugroup="UGROUP_ANONYMOUS" type="PLUGIN_TRACKER_FIELD_READ"/>
+  </permissions>
+</tracker>
