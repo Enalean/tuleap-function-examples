@@ -25,20 +25,26 @@ use serde::{Serialize, Deserialize};
 use serde_json::json;
 use std::error::Error;
 use std::io::stdin;
-use std::str::FromStr;
 
 #[derive(Serialize, Debug)]
 struct FieldValueBinding {
-    field_id: i64,
-    bind_value_ids: Vec<i64>,
+    field_id: u32,
+    bind_value_ids: Vec<u32>,
 }
 
 #[derive(Debug, Serialize, Deserialize)]
-struct ListValue {
-    id: Option<i64>,
-    label: Option<String>,
-    color: Option<String>,
-    tlp_color: Option<String>,
+#[serde(untagged)]
+enum ListValue {
+    StaticValue {
+        id: u32,
+        label: String,
+        color: Option<String>,
+        tlp_color: Option<String>,
+    },
+    UserValue {
+        id: Option<u32>,
+        real_name: Option<String>,
+    },
 }
 
 #[derive(Debug, Serialize, Deserialize)]
@@ -77,38 +83,41 @@ enum FieldValue {
 
 #[derive(Serialize, Deserialize)]
 struct Changeset {
-    id: i64,
+    id: u32,
     values: Vec<FieldValue>,
 }
 
 #[derive(Serialize, Deserialize)]
 struct TrackerFieldValue {
-    id: i64,
+    id: u32,
     label: String,
 }
 
 #[derive(Serialize, Deserialize)]
 struct TrackerField {
-    field_id: i64,
+    field_id: u32,
     label: String,
     values: Option<Vec<TrackerFieldValue>>,
 }
 
 #[derive(Serialize, Deserialize)]
 struct Tracker {
-    id: i64,
+    id: u32,
     fields: Vec<TrackerField>
 }
 
 #[derive(Serialize, Deserialize)]
 struct Artifact {
-    id: i64,
+    id: u32,
     current: Changeset,
     tracker: Tracker,
 }
 
-fn convert_label_to_integer(label: &str) -> Result<i64, Box<dyn Error>> {
-    i64::from_str(label).map_err(Into::into)
+fn convert_label_to_integer(label: String) -> Result<u32, Box<dyn Error>> {
+    match label.parse::<u32>() {
+        Ok(n) => Ok(n),
+        Err(_) => Err("Label is invalid integer".into()),
+    }
 }
 
 fn find_select_box_by_label<'a>(changeset: &'a Changeset, target_label: &str) -> Option<&'a FieldValue> {
@@ -118,31 +127,24 @@ fn find_select_box_by_label<'a>(changeset: &'a Changeset, target_label: &str) ->
     })
 }
 
-fn find_select_box_value_by_label(artifact: &Artifact, target_label: &str) -> Result<Option<i64>, Box<dyn Error>> {
-    find_select_box_by_label(&artifact.current, target_label)
-    .and_then(|field_value| match field_value {
-        FieldValue::SelectBox { values, .. } => values.first().and_then(|first_value| first_value.label.as_deref()),
+fn find_value_matching_label(field_value: &FieldValue) -> Option<String> {
+    match field_value {
+        FieldValue::SelectBox { values, .. } => values.first().and_then(|first_value| match first_value {
+            ListValue::StaticValue { label, .. } => Some(label.to_string()),
+            _ => None,
+        }),
         _ => None,
-    })
-    .map(|label| convert_label_to_integer(label))
+    }
+}
+
+fn find_select_box_value_by_label(artifact: &Artifact, target_label: &str) -> Result<Option<u32>, Box<dyn Error>> {
+    find_select_box_by_label(&artifact.current, target_label)
+    .and_then(|field_value| find_value_matching_label(field_value) )
+    .and_then(|label| Some(convert_label_to_integer(label)))
     .transpose()
 }
 
-fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probability_field_label: &str, risk_field_label: &str) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
-    
-    let severity = find_select_box_value_by_label(&artifact, severity_field_label)?;
-    if severity.is_none() {
-        return Ok(None);
-    }
-    let severity_value = severity.unwrap();
-
-    let probability = find_select_box_value_by_label(&artifact, probability_field_label)?;
-    if probability.is_none() {
-        return Ok(None);
-    }
-    let probability_value = probability.unwrap();
-    
-
+fn find_risk_value(artifact: &Artifact, risk_field_label: &str, product: u32) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
     let risk_field_option = artifact.tracker.fields.iter().find(|field| field.label == risk_field_label);
 
     if risk_field_option.is_none() {
@@ -154,8 +156,6 @@ fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probabil
         return Err("Cannot find risk field values".into());
     }
     let risk_values = risk_field.values.as_ref().unwrap();
-
-    let product = severity_value * probability_value;
 
     let matching_value = risk_values.iter()
         .find(|value| {
@@ -170,6 +170,24 @@ fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probabil
     } else {
         Err("Cannot find matching Risk value".into())
     }
+}
+
+fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probability_field_label: &str, risk_field_label: &str) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
+    let severity = find_select_box_value_by_label(&artifact, severity_field_label)?;
+    if severity.is_none() {
+        return Ok(None);
+    }
+    let severity_value = severity.unwrap();
+
+    let probability = find_select_box_value_by_label(&artifact, probability_field_label)?;
+    if probability.is_none() {
+        return Ok(None);
+    }
+    let probability_value = probability.unwrap();
+    
+    let product = severity_value * probability_value;
+
+    find_risk_value(artifact, risk_field_label, product)
 }
 
 fn main() -> Result<(), Box<dyn Error>> {
