@@ -1,9 +1,13 @@
 # Post-action add comment
 
+This Function make the addition between two `Integer` field, `field_a` and `field_b` then, it returns the sum in a new comment and write in the `field_sum` field if the result is odd or even.
+
 This Function is an example of what you can do with this plugin. For this example we choose to use Rust, but you can use
 any language which have a target to WASI Preview 1 (Go 1.21 for example).
 
 ## How to use
+
+### On this repository side
 
 First you need to run `nix-shell` to have all needed tools.
 
@@ -347,5 +351,15 @@ If you want to use it for your Tracker, you first need to build it:
 cargo build --target wasm32-wasi --release
 ```
 
+### On Tuleap side
+
 Then upload the binary result file (`target/wasm32-wasi/release/post-action-add-comment.wasm`) to your Tracker
 administration (Administration > Workflow > Tuleap Functions).
+
+In order to make functionnal the Function in your Tracker, you **must** have the following fields: 
+ 1. A first `Integer` field **with the label** `field_a`
+ 2. A second `Integer` field **with the label** `field_b`
+ 3. A `String` field **with the label** `field_sum`.
+
+ When creating (or updating) an artifact, fill the both fields `field_a` and `field_b` and then submit. 
+ After the artifact submission you will see new comments and the `field_sum` filled with `odd` or `even`.
