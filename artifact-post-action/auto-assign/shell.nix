@@ -3,6 +3,7 @@
 pkgs.mkShellNoCC {
   buildInputs = [
     pkgs.nodePackages.pnpm
+    pkgs.nodejs-slim
     (pkgs.callPackage ./javy.nix { })
     pkgs.binaryen
     pkgs.wasmtime
