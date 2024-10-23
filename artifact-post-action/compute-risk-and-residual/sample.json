@@ -1,0 +1,1702 @@
+{
+    "id": 11715,
+    "action": "create",
+    "user": {
+        "id": 102,
+        "uri": "users/102",
+        "user_url": "/users/vaceletm",
+        "real_name": "Manuel VACELET",
+        "display_name": "Manuel VACELET (vaceletm)",
+        "username": "vaceletm",
+        "ldap_id": "102",
+        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+        "is_anonymous": false,
+        "has_avatar": true
+    },
+    "current": {
+        "id": 16335,
+        "submitted_by": 102,
+        "submitted_by_details": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/vaceletm",
+            "real_name": "Manuel VACELET",
+            "display_name": "Manuel VACELET (vaceletm)",
+            "username": "vaceletm",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "submitted_on": "2024-05-06T15:29:13+00:00",
+        "email": null,
+        "last_comment": {
+            "body": "",
+            "post_processed_body": "",
+            "format": "text",
+            "ugroups": null
+        },
+        "last_modified_by": {
+            "id": 102,
+            "uri": "users/102",
+            "user_url": "/users/vaceletm",
+            "real_name": "Manuel VACELET",
+            "display_name": "Manuel VACELET (vaceletm)",
+            "username": "vaceletm",
+            "ldap_id": "102",
+            "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/users/vaceletm/avatar-6be8482a07c08e4f8a18a7b4c19d94ecbbedb6c4e736ade2c093a6385770f005.png",
+            "is_anonymous": false,
+            "has_avatar": true
+        },
+        "values": [
+            {
+                "field_id": 25372,
+                "type": "string",
+                "label": "Title",
+                "value": "Foo Bar"
+            },
+            {
+                "field_id": 25374,
+                "type": "string",
+                "label": "Code",
+                "value": "SXX"
+            },
+            {
+                "field_id": 25377,
+                "label": "Severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15118,
+                        "label": "2",
+                        "color": null,
+                        "tlp_color": "graffiti-yellow"
+                    }
+                ],
+                "bind_value_ids": [
+                    15118
+                ]
+            },
+            {
+                "field_id": 25379,
+                "label": "Probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15123,
+                        "label": "3",
+                        "color": null,
+                        "tlp_color": "clockwork-orange"
+                    }
+                ],
+                "bind_value_ids": [
+                    15123
+                ]
+            },
+            {
+                "field_id": 25381,
+                "label": "Risk",
+                "type": "sb",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 25385,
+                "label": "Residual severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15141,
+                        "label": "1",
+                        "color": null,
+                        "tlp_color": "neon-green"
+                    }
+                ],
+                "bind_value_ids": [
+                    15141
+                ]
+            },
+            {
+                "field_id": 25387,
+                "label": "Residual probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15147,
+                        "label": "3",
+                        "color": null,
+                        "tlp_color": "clockwork-orange"
+                    }
+                ],
+                "bind_value_ids": [
+                    15147
+                ]
+            },
+            {
+                "field_id": 25389,
+                "label": "Residual risk level",
+                "type": "sb",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 25391,
+                "label": "Status",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15165,
+                        "label": "Active",
+                        "color": null,
+                        "tlp_color": null
+                    }
+                ],
+                "bind_value_ids": [
+                    15165
+                ]
+            },
+            {
+                "field_id": 25395,
+                "label": "Links",
+                "type": "art_link",
+                "links": [],
+                "reverse_links": []
+            },
+            {
+                "field_id": 25397,
+                "type": "aid",
+                "label": "id",
+                "value": 11715
+            },
+            {
+                "field_id": 25392,
+                "label": "Owner",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": null,
+                        "uri": null,
+                        "user_url": null,
+                        "real_name": null,
+                        "display_name": "Utilisateur anonyme",
+                        "username": null,
+                        "ldap_id": null,
+                        "avatar_url": "https://tuleap-web.tuleap-aio-dev.docker/themes/common/images/avatar_default.png",
+                        "is_anonymous": true,
+                        "has_avatar": true,
+                        "email": null,
+                        "status": null
+                    }
+                ],
+                "bind_value_ids": [
+                    100
+                ]
+            },
+            {
+                "field_id": 25393,
+                "label": "Risk acceptance",
+                "type": "rb",
+                "values": [],
+                "bind_value_ids": []
+            },
+            {
+                "field_id": 25382,
+                "type": "text",
+                "label": "Existing controls",
+                "value": "<p>fgfdg</p>\n",
+                "format": "html",
+                "commonmark": "fgfdg",
+                "post_processed_value": "<p>fgfdg</p>\n"
+            }
+        ],
+        "last_modified_date": "2024-05-06T15:29:13+00:00"
+    },
+    "previous": null,
+    "is_custom_code_execution": false,
+    "tracker": {
+        "id": 980,
+        "uri": "trackers/980",
+        "html_url": "/plugins/tracker/?tracker=980",
+        "project": {
+            "id": 117,
+            "uri": "projects/117",
+            "label": "Blue team",
+            "icon": "🔷"
+        },
+        "label": "Risk",
+        "description": "",
+        "item_name": "risk",
+        "fields": [
+            {
+                "field_id": 25384,
+                "label": "RRA:C1",
+                "name": "rra_c1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25397,
+                "label": "id",
+                "name": "id",
+                "type": "aid",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": null
+            },
+            {
+                "field_id": 25395,
+                "label": "Links",
+                "name": "links_1",
+                "type": "art_link",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": null,
+                "allowed_types": [
+                    {
+                        "shortname": "_is_child",
+                        "forward_label": "Enfant",
+                        "reverse_label": "Parent"
+                    },
+                    {
+                        "shortname": "_covered_by",
+                        "forward_label": "est Couvert par",
+                        "reverse_label": "Couvre"
+                    },
+                    {
+                        "shortname": "Blocks",
+                        "forward_label": "blocks",
+                        "reverse_label": "is blocked by"
+                    },
+                    {
+                        "shortname": "Cloners",
+                        "forward_label": "clones",
+                        "reverse_label": "is cloned by"
+                    },
+                    {
+                        "shortname": "Cloners_all",
+                        "forward_label": "clones & all",
+                        "reverse_label": "is cloned by"
+                    },
+                    {
+                        "shortname": "Duplicate",
+                        "forward_label": "duplicates",
+                        "reverse_label": "is duplicated by"
+                    },
+                    {
+                        "shortname": "implemented_by",
+                        "forward_label": "Implemented by",
+                        "reverse_label": "Implements"
+                    },
+                    {
+                        "shortname": "Relates",
+                        "forward_label": "relates to",
+                        "reverse_label": "relates to"
+                    }
+                ]
+            },
+            {
+                "field_id": 25391,
+                "label": "Status",
+                "name": "status",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15165,
+                        "label": "Active",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15166,
+                        "label": "Canceled",
+                        "is_hidden": false,
+                        "value_color": ""
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": [
+                    {
+                        "id": 15165,
+                        "label": "Active"
+                    }
+                ]
+            },
+            {
+                "field_id": 25389,
+                "label": "Residual risk level",
+                "name": "residual_risk_level",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15149,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15150,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15151,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15152,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15153,
+                        "label": "5",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15154,
+                        "label": "6",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15155,
+                        "label": "7",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15156,
+                        "label": "8",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15157,
+                        "label": "9",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15158,
+                        "label": "10",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15159,
+                        "label": "11",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15160,
+                        "label": "12",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15161,
+                        "label": "13",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15162,
+                        "label": "14",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15163,
+                        "label": "15",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15164,
+                        "label": "16",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25387,
+                "label": "Residual probability",
+                "name": "residual_probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15145,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15146,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15147,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15148,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25385,
+                "label": "Residual severity",
+                "name": "residual_severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15141,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15142,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15143,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15144,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25370,
+                "label": "Info",
+                "name": "info",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25381,
+                "label": "Risk",
+                "name": "risk",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15125,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15126,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15127,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15128,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15129,
+                        "label": "5",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15130,
+                        "label": "6",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15131,
+                        "label": "7",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15132,
+                        "label": "8",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15133,
+                        "label": "9",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15134,
+                        "label": "10",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15135,
+                        "label": "11",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15136,
+                        "label": "12",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15137,
+                        "label": "13",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15138,
+                        "label": "14",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15139,
+                        "label": "15",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    },
+                    {
+                        "id": 15140,
+                        "label": "16",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [],
+                    "can_read": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ],
+                    "can_update": []
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25372,
+                "label": "Title",
+                "name": "title",
+                "type": "string",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": ""
+            },
+            {
+                "field_id": 25377,
+                "label": "Severity",
+                "name": "severity",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15117,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15118,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15119,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15120,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25376,
+                "label": "R:C1",
+                "name": "r_c1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25379,
+                "label": "Probability",
+                "name": "probability",
+                "type": "sb",
+                "values": [
+                    {
+                        "id": 15121,
+                        "label": "1",
+                        "is_hidden": false,
+                        "value_color": "neon-green"
+                    },
+                    {
+                        "id": 15122,
+                        "label": "2",
+                        "is_hidden": false,
+                        "value_color": "graffiti-yellow"
+                    },
+                    {
+                        "id": 15123,
+                        "label": "3",
+                        "is_hidden": false,
+                        "value_color": "clockwork-orange"
+                    },
+                    {
+                        "id": 15124,
+                        "label": "4",
+                        "is_hidden": false,
+                        "value_color": "fiesta-red"
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25374,
+                "label": "Code",
+                "name": "code",
+                "type": "string",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": "SXX"
+            },
+            {
+                "field_id": 25371,
+                "label": "I:C1",
+                "name": "i_c1",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25378,
+                "label": "R:C2",
+                "name": "r_c2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25386,
+                "label": "RRA:C2",
+                "name": "rra_c2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25375,
+                "label": "Risk assessment",
+                "name": "risk_assessment",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25392,
+                "label": "Owner",
+                "name": "owner",
+                "type": "sb",
+                "values": [],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "users",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25388,
+                "label": "RRA:C3",
+                "name": "rra_c3",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25393,
+                "label": "Risk acceptance",
+                "name": "risk_acceptance",
+                "type": "rb",
+                "values": [
+                    {
+                        "id": 15167,
+                        "label": "Yes",
+                        "is_hidden": false,
+                        "value_color": ""
+                    },
+                    {
+                        "id": 15168,
+                        "label": "No",
+                        "is_hidden": false,
+                        "value_color": ""
+                    }
+                ],
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": "static",
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": []
+            },
+            {
+                "field_id": 25373,
+                "label": "I:C2",
+                "name": "i_c2",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25380,
+                "label": "R:C3",
+                "name": "r_c3",
+                "type": "column",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25383,
+                "label": "Residual risk assessment",
+                "name": "residual_risk_assessment",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25382,
+                "label": "Existing controls",
+                "name": "existing_controls",
+                "type": "text",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read",
+                    "update",
+                    "create"
+                ],
+                "permissions_for_groups": {
+                    "can_submit": [
+                        {
+                            "id": "2",
+                            "uri": "user_groups/2",
+                            "label": "Utilisateurs enregistrés",
+                            "users_uri": "user_groups/2/users",
+                            "short_name": "registered_users",
+                            "key": "ugroup_registered_users_name_key"
+                        }
+                    ],
+                    "can_read": [
+                        {
+                            "id": "1",
+                            "uri": "user_groups/1",
+                            "label": "Anonymes",
+                            "users_uri": "user_groups/1/users",
+                            "short_name": "all_users",
+                            "key": "ugroup_anonymous_users_name_key"
+                        }
+                    ],
+                    "can_update": [
+                        {
+                            "id": "117_3",
+                            "uri": "user_groups/117_3",
+                            "label": "Membres du projet",
+                            "users_uri": "user_groups/117_3/users",
+                            "short_name": "project_members",
+                            "key": "ugroup_project_members_name_key"
+                        }
+                    ]
+                },
+                "default_value": {
+                    "format": "commonmark",
+                    "content": ""
+                }
+            },
+            {
+                "field_id": 25390,
+                "label": "Status",
+                "name": "status_1",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25394,
+                "label": "Links",
+                "name": "links",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            },
+            {
+                "field_id": 25396,
+                "label": "Metadata",
+                "name": "metadata",
+                "type": "fieldset",
+                "values": null,
+                "required": false,
+                "collapsed": false,
+                "bindings": {
+                    "type": null,
+                    "list": []
+                },
+                "permissions": [
+                    "read"
+                ],
+                "permissions_for_groups": null,
+                "default_value": null
+            }
+        ],
+        "structure": [
+            {
+                "id": 25370,
+                "content": [
+                    {
+                        "id": 25371,
+                        "content": [
+                            {
+                                "id": 25372,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25373,
+                        "content": [
+                            {
+                                "id": 25374,
+                                "content": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 25375,
+                "content": [
+                    {
+                        "id": 25376,
+                        "content": [
+                            {
+                                "id": 25377,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25378,
+                        "content": [
+                            {
+                                "id": 25379,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25380,
+                        "content": [
+                            {
+                                "id": 25381,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25382,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 25383,
+                "content": [
+                    {
+                        "id": 25384,
+                        "content": [
+                            {
+                                "id": 25385,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25386,
+                        "content": [
+                            {
+                                "id": 25387,
+                                "content": null
+                            }
+                        ]
+                    },
+                    {
+                        "id": 25388,
+                        "content": [
+                            {
+                                "id": 25389,
+                                "content": null
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "id": 25390,
+                "content": [
+                    {
+                        "id": 25391,
+                        "content": null
+                    },
+                    {
+                        "id": 25392,
+                        "content": null
+                    },
+                    {
+                        "id": 25393,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 25394,
+                "content": [
+                    {
+                        "id": 25395,
+                        "content": null
+                    }
+                ]
+            },
+            {
+                "id": 25396,
+                "content": [
+                    {
+                        "id": 25397,
+                        "content": null
+                    }
+                ]
+            }
+        ],
+        "semantics": {
+            "title": {
+                "field_id": 25372
+            },
+            "status": {
+                "field_id": 25391,
+                "value_ids": [
+                    15165
+                ]
+            }
+        },
+        "workflow": {
+            "field_id": 0,
+            "is_used": "",
+            "is_legacy": false,
+            "is_advanced": true,
+            "rules": {
+                "dates": [],
+                "lists": []
+            },
+            "transitions": []
+        },
+        "permissions_for_groups": {
+            "can_access": [
+                {
+                    "id": "1",
+                    "uri": "user_groups/1",
+                    "label": "Anonymes",
+                    "users_uri": "user_groups/1/users",
+                    "short_name": "all_users",
+                    "key": "ugroup_anonymous_users_name_key"
+                }
+            ],
+            "can_access_submitted_by_user": [],
+            "can_access_assigned_to_group": [],
+            "can_access_submitted_by_group": [],
+            "can_admin": []
+        },
+        "parent": null,
+        "resources": [
+            {
+                "type": "reports",
+                "uri": "trackers/980/tracker_reports"
+            }
+        ],
+        "color_name": "coral-pink"
+    }
+}
