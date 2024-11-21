@@ -10,11 +10,11 @@
 
 stdenv.mkDerivation rec {
   pname = "javy";
-  version = "1.4.0";
+  version = "4.0.0";
 
   src = fetchurl {
     url = "https://github.com/bytecodealliance/javy/releases/download/v${version}/javy-x86_64-linux-v${version}.gz";
-    hash = "sha256-NZIzT8BdtgKiE3RbePWEY1E5TWe9mr2LSRhhmxzWzd8=";
+    hash = "sha256-sPVOFmDeQ4RAw35X6D4xAbV0jvZVtPiEe+XPYvJFUhQ=";
   };
 
   nativeBuildInputs = [

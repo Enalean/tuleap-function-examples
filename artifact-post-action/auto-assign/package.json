@@ -5,7 +5,7 @@
   "scripts": {
     "build": "pnpm run build:bundle && pnpm run build:js2wasm && pnpm run build:wasmopt",
     "build:bundle": "esbuild src/main.ts --platform=node --bundle --target=es2022 --minify --outfile=dist/function.js",
-    "build:js2wasm": "javy compile ./dist/function.js -o ./dist/function-unoptimized.wasm",
+    "build:js2wasm": "javy build ./dist/function.js -o ./dist/function-unoptimized.wasm",
     "build:wasmopt": "wasm-opt -O2 ./dist/function-unoptimized.wasm -o ./dist/function.wasm",
     "typecheck": "tsc --noEmit",
     "test": "vitest run"
