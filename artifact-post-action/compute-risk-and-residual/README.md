@@ -33,5 +33,5 @@ API `PUT /api/artifacts/:id`. For example:
 Then build the function:
 
 ```shell
-cargo build --target wasm32-wasi --release
+cargo build --target wasm32-wasip1 --release
 ```

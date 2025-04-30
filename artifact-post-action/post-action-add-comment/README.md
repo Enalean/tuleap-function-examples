@@ -348,12 +348,12 @@ API `PUT /api/artifacts/:id`. For example:
 If you want to use it for your Tracker, you first need to build it:
 
 ```shell
-cargo build --target wasm32-wasi --release
+cargo build --target wasm32-wasip1 --release
 ```
 
 ### On Tuleap side
 
-Then upload the binary result file (`target/wasm32-wasi/release/post-action-add-comment.wasm`) to your Tracker
+Then upload the binary result file (`target/wasm32-wasip1/release/post-action-add-comment.wasm`) to your Tracker
 administration (Administration > Workflow > Tuleap Functions).
 
 In order to make functionnal the Function in your Tracker, you **must** have the following fields: 

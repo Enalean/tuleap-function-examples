@@ -10,4 +10,4 @@ tests:
 
 .PHONY: build
 build:
-	cargo build --target wasm32-wasi --release
+	cargo build --target wasm32-wasip1 --release
