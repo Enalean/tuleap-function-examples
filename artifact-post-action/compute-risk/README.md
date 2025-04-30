@@ -44,10 +44,10 @@ use the module as is, in any Tracker with following constraints:
 Then build the function:
 
 ```shell
-cargo build --target wasm32-wasi --release
+cargo build --target wasm32-wasip1 --release
 ```
 
-Then upload the binary result file (`target/wasm32-wasi/release/post-action-compute-risk.wasm`) to your Tracker
+Then upload the binary result file (`target/wasm32-wasip1/release/post-action-compute-risk.wasm`) to your Tracker
 administration (Administration > Workflow > Tuleap Functions).
 
 And finally, update an artifact, shortly after the creation, it will be automatically updated with computed risk.
