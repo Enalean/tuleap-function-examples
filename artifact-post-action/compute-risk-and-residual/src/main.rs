@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-use serde::{Serialize, Deserialize};
+use serde::{Deserialize, Serialize};
 use serde_json::json;
 use std::error::Error;
 use std::io::stdin;
@@ -51,17 +51,11 @@ enum ListValue {
 #[serde(tag = "type")]
 enum FieldValue {
     #[serde(rename = "string")]
-    String {
-        field_id: u32,
-    },
+    String { field_id: u32 },
     #[serde(rename = "text")]
-    Text {
-        field_id: u32,
-    },
+    Text { field_id: u32 },
     #[serde(rename = "art_link")]
-    Link {
-        field_id: u32,
-    },
+    Link { field_id: u32 },
     #[serde(rename = "sb")]
     SelectBox {
         field_id: u32,
@@ -70,15 +64,9 @@ enum FieldValue {
         bind_value_ids: Vec<u32>,
     },
     #[serde(rename = "aid")]
-    ArtifactId {
-        field_id: u32,
-        label: String,
-    },
+    ArtifactId { field_id: u32, label: String },
     #[serde(rename = "rb")]
-    RadioButton {
-        field_id: u32,
-        label: String,
-    },
+    RadioButton { field_id: u32, label: String },
 }
 
 #[derive(Serialize, Deserialize)]
@@ -103,7 +91,7 @@ struct TrackerField {
 #[derive(Serialize, Deserialize)]
 struct Tracker {
     id: u32,
-    fields: Vec<TrackerField>
+    fields: Vec<TrackerField>,
 }
 
 #[derive(Serialize, Deserialize)]
@@ -120,32 +108,51 @@ fn convert_label_to_integer(label: String) -> Result<u32, Box<dyn Error>> {
     }
 }
 
-fn find_select_box_by_label<'a>(changeset: &'a Changeset, target_label: &str) -> Option<&'a FieldValue> {
-    changeset.values.iter().find(|field_value| match field_value {
-        FieldValue::SelectBox { label, .. } if label == target_label => true,
-        _ => false,
-    })
+fn find_select_box_by_label<'a>(
+    changeset: &'a Changeset,
+    target_label: &str,
+) -> Option<&'a FieldValue> {
+    changeset
+        .values
+        .iter()
+        .find(|field_value| match field_value {
+            FieldValue::SelectBox { label, .. } if label == target_label => true,
+            _ => false,
+        })
 }
 
 fn find_value_matching_label(field_value: &FieldValue) -> Option<String> {
     match field_value {
-        FieldValue::SelectBox { values, .. } => values.first().and_then(|first_value| match first_value {
-            ListValue::StaticValue { label, .. } => Some(label.to_string()),
-            _ => None,
-        }),
+        FieldValue::SelectBox { values, .. } => {
+            values.first().and_then(|first_value| match first_value {
+                ListValue::StaticValue { label, .. } => Some(label.to_string()),
+                _ => None,
+            })
+        }
         _ => None,
     }
 }
 
-fn find_select_box_value_by_label(artifact: &Artifact, target_label: &str) -> Result<Option<u32>, Box<dyn Error>> {
+fn find_select_box_value_by_label(
+    artifact: &Artifact,
+    target_label: &str,
+) -> Result<Option<u32>, Box<dyn Error>> {
     find_select_box_by_label(&artifact.current, target_label)
-    .and_then(|field_value| find_value_matching_label(field_value) )
-    .and_then(|label| Some(convert_label_to_integer(label)))
-    .transpose()
+        .and_then(|field_value| find_value_matching_label(field_value))
+        .and_then(|label| Some(convert_label_to_integer(label)))
+        .transpose()
 }
 
-fn find_risk_value(artifact: &Artifact, risk_field_label: &str, product: u32) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
-    let risk_field_option = artifact.tracker.fields.iter().find(|field| field.label == risk_field_label);
+fn find_risk_value(
+    artifact: &Artifact,
+    risk_field_label: &str,
+    product: u32,
+) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
+    let risk_field_option = artifact
+        .tracker
+        .fields
+        .iter()
+        .find(|field| field.label == risk_field_label);
 
     if risk_field_option.is_none() {
         return Err(format!("Cannot find field {}", risk_field_label).into());
@@ -157,10 +164,9 @@ fn find_risk_value(artifact: &Artifact, risk_field_label: &str, product: u32) ->
     }
     let risk_values = risk_field.values.as_ref().unwrap();
 
-    let matching_value = risk_values.iter()
-        .find(|value| {
-            value.label.as_str() == product.to_string()
-        });
+    let matching_value = risk_values
+        .iter()
+        .find(|value| value.label.as_str() == product.to_string());
 
     if let Some(matching_value) = matching_value {
         Ok(Some(FieldValueBinding {
@@ -172,7 +178,12 @@ fn find_risk_value(artifact: &Artifact, risk_field_label: &str, product: u32) ->
     }
 }
 
-fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probability_field_label: &str, risk_field_label: &str) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
+fn process_risk_values(
+    artifact: &Artifact,
+    severity_field_label: &str,
+    probability_field_label: &str,
+    risk_field_label: &str,
+) -> Result<Option<FieldValueBinding>, Box<dyn Error>> {
     let severity = find_select_box_value_by_label(&artifact, severity_field_label)?;
     if severity.is_none() {
         return Ok(None);
@@ -184,7 +195,7 @@ fn process_risk_values(artifact: &Artifact, severity_field_label: &str, probabil
         return Ok(None);
     }
     let probability_value = probability.unwrap();
-    
+
     let product = severity_value * probability_value;
 
     find_risk_value(artifact, risk_field_label, product)
@@ -198,26 +209,30 @@ fn main() -> Result<(), Box<dyn Error>> {
 
     let mut bindings: Vec<FieldValueBinding> = Vec::new();
     match process_risk_values(&artifact, "Severity", "Probability", "Risk") {
-        Ok(possible_binding) => {
-            match possible_binding {
-                Some(binding) => bindings.push(binding),
-                None => ()
-            }
+        Ok(possible_binding) => match possible_binding {
+            Some(binding) => bindings.push(binding),
+            None => (),
         },
         Err(e) => return Err(e),
     }
-    match process_risk_values(&artifact, "Residual severity", "Residual probability", "Residual risk level") {
-        Ok(possible_binding) => {
-            match possible_binding {
-                Some(binding) => bindings.push(binding),
-                None => ()
-            }
+    match process_risk_values(
+        &artifact,
+        "Residual severity",
+        "Residual probability",
+        "Residual risk level",
+    ) {
+        Ok(possible_binding) => match possible_binding {
+            Some(binding) => bindings.push(binding),
+            None => (),
         },
         Err(e) => return Err(e),
     }
-    println!("{}", json!({
-        "values": bindings
-    }));
+    println!(
+        "{}",
+        json!({
+            "values": bindings
+        })
+    );
 
     Ok(())
 }

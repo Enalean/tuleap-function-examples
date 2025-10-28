@@ -21,7 +21,7 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
  * SOFTWARE.
  */
-use serde_json::{json, Value};
+use serde_json::{Value, json};
 use std::error::Error;
 use std::io::stdin;
 
