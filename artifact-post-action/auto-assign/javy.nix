@@ -1,11 +1,12 @@
 # TODO:
 # * build from sources
 # * upstream to nixpkgs
-{ stdenv
-, lib
-, fetchurl
-, autoPatchelfHook
-, gzip
+{
+  stdenv,
+  lib,
+  fetchurl,
+  autoPatchelfHook,
+  gzip,
 }:
 
 stdenv.mkDerivation rec {
@@ -25,7 +26,7 @@ stdenv.mkDerivation rec {
   buildInputs = [
     stdenv.cc.cc.lib
   ];
-  
+
   unpackPhase = ''
     runHook preUnpack
     gzip -cd "${src}" > javy
