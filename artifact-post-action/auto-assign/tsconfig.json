@@ -1,7 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES2022",
-        "module": "commonjs",
+        "module": "node16",
         "sourceMap": false,
         "esModuleInterop": true,
         "strict": true,
@@ -10,7 +10,7 @@
         "noImplicitOverride": true,
         "declaration": true,
         "allowSyntheticDefaultImports": true,
-        "moduleResolution": "node",
+        "moduleResolution": "node16",
         "skipLibCheck": true,
         "lib": ["ES2022", "DOM"]
     },
