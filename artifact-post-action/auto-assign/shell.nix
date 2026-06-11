@@ -3,8 +3,8 @@
 }:
 
 pkgs.mkShellNoCC {
-  buildInputs = [
-    pkgs.nodePackages.pnpm
+  packages = [
+    pkgs.pnpm
     pkgs.nodejs-slim
     (pkgs.callPackage ./javy.nix { })
     pkgs.binaryen

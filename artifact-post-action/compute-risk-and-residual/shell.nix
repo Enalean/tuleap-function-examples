@@ -3,7 +3,7 @@
 }:
 
 pkgs.mkShellNoCC {
-  buildInputs = [
+  packages = [
     (pkgs.rust-bin.stable.latest.default.override {
       targets = [ "wasm32-wasip1" ];
       extensions = [

@@ -4,7 +4,7 @@
 }:
 
 pkgs.mkShellNoCC {
-  buildInputs = [
+  packages = [
     (treefmt-nix.mkWrapper pkgs {
       programs.gofmt.enable = true;
       programs.rustfmt.enable = true;
